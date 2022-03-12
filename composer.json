@@ -1,0 +1,26 @@
+{
+  "name": "fromholdio/silverstripe-hidden-pages",
+  "type": "silverstripe-vendormodule",
+  "description": "",
+  "license": "BSD-3-Clause",
+  "keywords": ["silverstripe"],
+  "homepage": "https://github.com/fromholdio/silverstripe-hidden-pages",
+  "support": {
+    "issues": "https://github.com/fromholdio/silverstripe-hidden-pages/issues"
+  },
+  "authors": [{
+    "name": "Luke Fromhold",
+    "homepage": "https://fromhold.io"
+  }],
+  "require": {
+    "silverstripe/vendor-plugin": "^1.0",
+    "silverstripe/cms": "^4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fromholdio\\HiddenPages\\": "src/"
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
