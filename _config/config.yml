@@ -2,12 +2,10 @@
 Name: fio-hidden-pages
 ---
 
-SilverStripe\CMS\Model\RedirectorPage:
-  hide_ancestor: SilverStripe\CMS\Model\RedirectorPage
-  extensions:
-    fioHiddenPage: Fromholdio\HiddenPages\Extensions\HiddenPageExtension
+SilverStripe\CMS\Model\SiteTree:
+  hide_pagetypes:
+    - SilverStripe\CMS\Model\VirtualPage
 
 SilverStripe\CMS\Model\VirtualPage:
-  hide_ancestor: SilverStripe\CMS\Model\VirtualPage
   extensions:
     fioHiddenPage: Fromholdio\HiddenPages\Extensions\HiddenPageExtension
