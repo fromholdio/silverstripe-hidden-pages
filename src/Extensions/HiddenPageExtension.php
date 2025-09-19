@@ -2,9 +2,9 @@
 
 namespace Fromholdio\HiddenPages\Extensions;
 
-use SilverStripe\CMS\Model\SiteTreeExtension;
+use SilverStripe\Core\Extension;
 
-class HiddenPageExtension extends SiteTreeExtension
+class HiddenPageExtension extends Extension
 {
     private static $need_permission = ['Create'];
 
